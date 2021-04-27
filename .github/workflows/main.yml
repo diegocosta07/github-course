@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: runs a one-line script
-      run: hello world
+      run: echo hello world
 
   deploy-dev:
     runs-on: ubuntu-latest
