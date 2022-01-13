@@ -3,7 +3,7 @@ if [ "$folder" = "dummy" ]; then
     echo $folder
     
 else
-    echo "another one"
+    echo "another one!"
     cd "add/"
     cat "Readme.md"
 fi
